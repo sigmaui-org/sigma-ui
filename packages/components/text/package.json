@@ -1,0 +1,39 @@
+{
+    "name": "@sigmaui-labs/text",
+    "version": "0.0.1",
+    "description": "The SigmaUI storybook setup for react UI Kit.",
+    "keywords": [
+      "storybook"
+    ],
+    "author": "Nicholas Novak (Aka) Webnerdie <its.nicholas.novak@gmail.com>",
+    "homepage": "https://sigma-ui.com",
+    "license": "MIT",
+    "main": "src/index.ts",
+    "sideEffects": true,
+    "files": [
+      "dist"
+    ],
+    "publishConfig": {
+      "access": "public"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sigmaui-labs/sigma-ui.git",
+      "directory": "packages/storybook"
+    },
+    "bugs": {
+      "url": "https://github.com/sigmaui-labs/sigma-ui/issues"
+    },
+    "scripts": {
+    },
+    "peerDependencies": {
+      "react": ">=18",
+      "react-dom": ">=18"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+      "react": "^18.3.1",
+      "react-dom": "^18.3.1"
+    }
+}
